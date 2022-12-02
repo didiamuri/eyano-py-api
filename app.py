@@ -1,5 +1,5 @@
-from flask import Flask, send_file
-from flask_cors import CORS, cross_origin
+from flask import Flask
+from flask_cors import CORS
 
 flaskAppInstance = Flask(__name__)
 cors = CORS(flaskAppInstance)
